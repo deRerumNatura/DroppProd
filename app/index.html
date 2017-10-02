@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Required meta tags -->
+	Required meta tags
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Bootstrap CSS -->
+	Bootstrap CSS
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href="prod/main_prod.css">
 	<script
@@ -30,7 +30,7 @@
 						<div class="sandwich line-3"></div>
 					</div>
 					<nav>
-						<ul class="nav-mnu">
+						<ul class="nav-mnu" id="nava-bar">
 							<li>Home</li>
 							<li>Servises</li>
 							<li>Portfolio</li>
@@ -86,6 +86,107 @@
 			</div>
 		</div>
 	</section>
+</header>
+
+<script src="js/menu.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="prod/main_prod.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header> <!-- у тебя вся страница в хедере, а его высота 110? как так?  -->
+    <div class="container-fluid"> <!-- насколько помню контейнер может быть один на странице, правда может я ошибаюсь, но какой смысл в нескольких гибких контейнерах на странице? -->
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-2">
+        <!-- тоже не пойму если тебе нужны две колонки в очень больших экранах (xl) в больших и средних, то зачем дублировать col-xl-2 col-lg-2 col-md-2, по-моему достаточно описать только то, что отличается col-md-2 col-sm-4 и все -->
+          <div class="logo">
+            <img src="img/logo.jpg" alt="Drop">
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-2 col-6"></div>
+        <!--не очень хорошо делать пустые дивы на странице, это для корректного позиционирования блоков? Но есть другие способы, данный не есть гуд -->
+
+        <!-- ДОБАВИТЬ АЙДИШНИК ДЛЯ КОНТЕЙНЕРА (дива) В КОТОРОМ НАХОДИТСЯ МЕНЮ -->
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-4" id="nav_container">
+          <div class="switch" id="menu_switcher">
+            <div class="sandwich line-1"></div>
+            <div class="sandwich line-2"></div>
+            <div class="sandwich line-3"></div>
+          </div>
+          <nav>
+            <ul class="nav-mnu">
+              <li>Home</li>
+              <li>Servises</li>
+              <li>Portfolio</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+          <!-- <nav> —><!— </nav> -->
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 bcg_head" id="bcg_header">
+          <div class="in-head">
+            <h1>Come,stay for a coffee!</h1>
+            <a class="btn btn-primary" href="#" role="button">Have a seat</a>
+          </div>
+          <!--зачем вставлять сюда картинку напрямую, можно просто в файле стилей задать ее как бекграунд картинку -->
+         <img src="img/background_head.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 serv">
+          <h2>Services</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container decript">
+      <div class="row">
+        <div class="col-xl-1 col-lg-1"></div>
+        <div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+          <img src="img/services/Pen_icon.png" alt="">
+          <h2>Branding</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
+        </div>
+        <div class="col-xl-1 col-lg-1"></div>
+        <div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+          <img src="img/services/PC_icon.png" alt="">
+          <h2>Web Desing</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
+        </div>
+        <div class="col-xl-1 col-lg-1"></div>
+        <div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+          <img src="img/services/Mic_icon.png" alt="">
+          <h2>Marketing</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
+        </div>
+        <div class="col-xl-1 col-lg-1"></div>
+      </div>
+    </div>
+  </section>
 </header>
 
 <script src="js/menu.js"></script>
