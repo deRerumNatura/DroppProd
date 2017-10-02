@@ -21,6 +21,7 @@ $dark_head_grey: #565656
 		padding: 10px
 		border-bottom: solid $dark_head_grey 1px
 		font-size: 1.8rem
+		width: 50%
 	.nav-mnu > li:hover
 		border-bottom: solid #fff 1px
 		padding: 10px
@@ -32,6 +33,12 @@ $dark_head_grey: #565656
 		overflow: hidden
 		img
 			width: 200vw
+@media screen and (max-width: 576px)
+	.bcg_head .in-head 
+		& > a
+			margin-top: 20%
+		& > h1
+			font-size: 9vw
 		//===========================nav========
 // 		right: -1px
 // 		background-color: $orange

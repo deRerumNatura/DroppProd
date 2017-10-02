@@ -39,20 +39,17 @@ $( document ).ready(function() {
   var header = $('.bcg_head');
   var heightMenu = header.height();
   var widthMenu = header.width();
-
   //добавлен айдишник для дива, являющегося контейнером для меню
   var navCont = $('#nav_container');
-
 
   if(header.width() < 1200 ) {
     console.log(header.width());
     menu.height(heightMenu);
     menu.width(widthMenu);
-
     //при загрузке контейнеру меню делаем такое свойство, чтобы скрыть непонятное поведение абсолютно позиционированого меню, которое раздвигает страницу
     navCont.css({'overflow': 'hidden'});
   }
-
+  
   $('#menu_switcher').click(function(){
     if(menu.css("opacity") == "1") {
       menu.css({

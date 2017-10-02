@@ -191,6 +191,7 @@ nav {
     padding: 10px;
     border-bottom: solid #565656 1px;
     font-size: 1.8rem;
+    width: 50%;
   }
   .nav-mnu > li:hover {
     border-bottom: solid #fff 1px;
@@ -208,6 +209,15 @@ nav {
   }
   .bcg_head img {
     width: 200vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bcg_head .in-head > a {
+    margin-top: 20%;
+  }
+  .bcg_head .in-head > h1 {
+    font-size: 9vw;
   }
 }
 
