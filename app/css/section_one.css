@@ -1,4 +1,4 @@
-.serv {
+.chapters {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.serv h2 {
+.chapters h2 {
   text-transform: uppercase;
   color: #fd5433;
 }

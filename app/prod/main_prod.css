@@ -17,6 +17,15 @@ header {
   height: 110px;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.head-row {
+  width: 105vw;
+}
+
 .nav-mnu {
   display: flex;
   list-style-type: none;
@@ -42,7 +51,6 @@ header {
   height: 110px;
   display: flex;
   align-items: center;
-  margin-left: 50%;
 }
 
 nav {
@@ -221,7 +229,12 @@ nav {
   }
 }
 
-.serv {
+.port {
+  border-top: solid #565656 1px;
+  border-bottom: solid transparent 1px;
+}
+
+.chapters {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,7 +243,7 @@ nav {
   width: 100%;
 }
 
-.serv h2 {
+.chapters h2 {
   text-transform: uppercase;
   color: #fd5433;
 }
@@ -259,4 +272,23 @@ nav {
   text-align: center;
   font-family: Arial;
   color: #565656;
+}
+
+.port {
+  border-top: solid #565656 1px;
+  border-bottom: none;
+}
+
+.p-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-1 > img {
+  background-repeat: no-repeat;
+  width: calc(100% / 6);
+}
+
+.port-img {
+  width: 100%;
 }

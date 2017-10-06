@@ -7,6 +7,15 @@ header {
   height: 110px;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.head-row {
+  width: 105vw;
+}
+
 .nav-mnu {
   display: flex;
   list-style-type: none;
@@ -32,7 +41,6 @@ header {
   height: 110px;
   display: flex;
   align-items: center;
-  margin-left: 50%;
 }
 
 nav {

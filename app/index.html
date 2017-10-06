@@ -110,8 +110,8 @@
 </head>
 <body>
 	<header> <!-- у тебя вся страница в хедере, а его высота 110? как так?  -->
-		<div class="container-fluid"> <!-- насколько помню контейнер может быть один на странице, правда может я ошибаюсь, но какой смысл в нескольких гибких контейнерах на странице? -->
-			<div class="row">
+		<div class="container"> <!-- насколько помню контейнер может быть один на странице, правда может я ошибаюсь, но какой смысл в нескольких гибких контейнерах на странице? -->
+			<div class="row head-row">
 				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-2">
 					<!-- тоже не пойму если тебе нужны две колонки в очень больших экранах (xl) в больших и средних, то зачем дублировать col-xl-2 col-lg-2 col-md-2, по-моему достаточно описать только то, что отличается col-md-2 col-sm-4 и все -->
 					<div class="logo">
@@ -160,32 +160,61 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 serv">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 chapters">
 					<h2>Services</h2>
 				</div>
 			</div>
 		</div>
 		<div class="container decript">
 			<div class="row">
-				<div class="col-xl-1 col-lg-1"></div>
-				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+				<div class="col-xl-4 col-lg-4 col-sm-12 col-xs-12 serv_desript">
 					<img src="img/services/Pen_icon.png" alt="">
 					<h2>Branding</h2>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
 				</div>
-				<div class="col-xl-1 col-lg-1"></div>
-				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+				<div class="col-xl-4 col-lg-4 col-sm-12 col-xs-12 serv_desript">
 					<img src="img/services/PC_icon.png" alt="">
 					<h2>Web Desing</h2>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
 				</div>
-				<div class="col-xl-1 col-lg-1"></div>
-				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 serv_desript">
+				<div class="col-xl-4 col-lg-4 col-sm-12 col-xs-12 serv_desript">
 					<img src="img/services/Mic_icon.png" alt="">
 					<h2>Marketing</h2>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus commodi dolores. Rem labore quaerat reiciendis laborum, quasi eius amet!</h3>
 				</div>
-				<div class="col-xl-1 col-lg-1"></div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 chapters port">
+					<h2>Portfolio</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row	port-img">
+				<div class="col-xl-12 col-md-12 col-sm-12 col-6 p-1">
+					<!-- <img src="img/portfolio/p1.png" alt=""> -->
+					<img src="img/portfolio/Port1.png" alt="">
+					<img src="img/portfolio/Port1.png" alt="">
+					<img src="img/portfolio/Port2.png" alt="">
+					<img src="img/portfolio/Port3.png" alt="">
+					<img src="img/portfolio/Port3.png" alt="">
+					<img src="img/portfolio/Port4.png" alt="">
+					<!-- <img src="img/portfolio/p2.png" alt=""> -->
+				</div>
+			</div>
+			<div class="row	port-img">
+				<div class="col-xl-12 col-md-12 col-sm-12 col-6 p-2">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+				</div>
 			</div>
 		</div>
 	</section>

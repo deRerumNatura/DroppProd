@@ -1,0 +1,18 @@
+.port {
+  border-top: solid #565656 1px;
+  border-bottom: none;
+}
+
+.p-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-1 > img {
+  background-repeat: no-repeat;
+  width: calc(100% / 6);
+}
+
+.port-img {
+  width: 100%;
+}
