@@ -12,10 +12,6 @@ header {
   padding: 0;
 }
 
-.head-row {
-  width: 105vw;
-}
-
 .nav-mnu {
   display: flex;
   list-style-type: none;
