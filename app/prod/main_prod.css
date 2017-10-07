@@ -219,6 +219,9 @@ nav {
   .serv-row .serv_desript h3 {
     padding: 0 20px;
   }
+  .row .porfolio_img > img {
+    height: 25vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -235,6 +238,9 @@ nav {
   .serv-row .serv_desript h3 {
     padding: 0;
   }
+  .row .porfolio_img > img {
+    height: 30vh;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -243,6 +249,9 @@ nav {
   }
   .bcg_head .in-head > h1 {
     font-size: 9vw;
+  }
+  .row .porfolio_img > img {
+    height: 47vh;
   }
 }
 
@@ -302,9 +311,14 @@ nav {
   padding: 0;
   background-repeat: no-repreat;
   display: flex;
+  background-color: #fd5433;
 }
 
 .porfolio_img > img {
   width: 100%;
   height: 25vh;
+}
+
+.porfolio_img:hover {
+  background-color: #fd5433;
 }

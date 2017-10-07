@@ -46,6 +46,9 @@
   .serv-row .serv_desript h3 {
     padding: 0 20px;
   }
+  .row .porfolio_img > img {
+    height: 25vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -62,6 +65,9 @@
   .serv-row .serv_desript h3 {
     padding: 0;
   }
+  .row .porfolio_img > img {
+    height: 30vh;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -70,5 +76,8 @@
   }
   .bcg_head .in-head > h1 {
     font-size: 9vw;
+  }
+  .row .porfolio_img > img {
+    height: 47vh;
   }
 }
