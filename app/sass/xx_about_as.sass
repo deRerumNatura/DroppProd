@@ -1,0 +1,38 @@
+$orange: #fd5433
+.about-row
+	display: flex
+	margin: 0 120px
+	.about-u
+		display: flex
+		justify-content: center
+		align-items: center
+		height: 40vh
+		background-repeat: no-repeat
+		.au-discr
+			display: flex
+			position: absolute
+			width: 100vw
+			left: -150%
+			top: 100%
+			background-color: $orange
+			padding: 75px 120px 30px 120px
+			opacity: 0
+			z-index: 0
+		.au-discr:nth-child(1)
+			left: 27%
+		.au-discr:nth-child(3)
+		.au-discr:nth-child(4)
+			.skills
+				display: flex
+				flex-direction: column
+				justify-content: center
+				.skil-lines
+					height: 10px
+					background-color: #fff
+					margin: 17px 0
+.about-u:hover > .au-discr
+	opacity: 1
+	z-index: 9999
+
+
+

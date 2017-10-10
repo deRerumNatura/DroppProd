@@ -47,6 +47,7 @@ header {
   height: 110px;
   display: flex;
   align-items: center;
+  margin-left: 20%;
 }
 
 nav {
@@ -260,6 +261,10 @@ nav {
   border-bottom: solid transparent 1px;
 }
 
+.serv-row {
+  margin: 0 120px;
+}
+
 .chapters {
   display: flex;
   align-items: center;
@@ -280,7 +285,6 @@ nav {
   justify-content: center;
   flex-direction: column;
   margin: 70px 0;
-  padding: 0 80px;
 }
 
 .serv_desript h2 {
@@ -311,14 +315,60 @@ nav {
   padding: 0;
   background-repeat: no-repreat;
   display: flex;
-  background-color: #fd5433;
 }
 
 .porfolio_img > img {
   width: 100%;
   height: 25vh;
+  transition: all .5s;
 }
 
-.porfolio_img:hover {
+.porfolio_img:hover > img {
+  opacity: .5;
+}
+
+.about-row {
+  display: flex;
+  margin: 0 120px;
+}
+
+.about-row .about-u {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-repeat: no-repeat;
+}
+
+.about-row .about-u .au-discr {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  left: -150%;
+  top: 100%;
   background-color: #fd5433;
+  padding: 75px 120px 30px 120px;
+  opacity: 0;
+  z-index: 0;
+}
+
+.about-row .about-u .au-discr:nth-child(1) {
+  left: 27%;
+}
+
+.about-row .about-u .au-discr:nth-child(4) .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-row .about-u .au-discr:nth-child(4) .skills .skil-lines {
+  height: 10px;
+  background-color: #fff;
+  margin: 17px 0;
+}
+
+.about-u:hover > .au-discr {
+  opacity: 1;
+  z-index: 9999;
 }
