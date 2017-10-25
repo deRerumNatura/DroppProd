@@ -1,0 +1,132 @@
+@media screen and (min-width: 1200px) {
+  .switch {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-mnu {
+    transition: .6s;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1001;
+    top: 110px;
+    background-color: #fd5433;
+    margin: 0;
+    padding: 0;
+    right: -100%;
+    opacity: 0;
+  }
+  .nav-mnu > li {
+    padding: 10px;
+    border-bottom: solid #565656 1px;
+    font-size: 1.8rem;
+    width: 50%;
+  }
+  .nav-mnu > li:hover {
+    border-bottom: solid #fff 1px;
+    padding: 10px;
+  }
+  .logo {
+    margin-left: 20%;
+  }
+  .serv-row .serv_desript h2 {
+    padding: 50px 0;
+  }
+  .row .porfolio_img > img {
+    height: 20vh;
+  }
+  .about-us-row .about-u-col p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-us-row .about-u-col p {
+    font-size: 14px;
+  }
+  .r-tabs-panel .r-tabs-state-active .triangle {
+    top: 213px;
+  }
+  .about-us-row {
+    padding: 50px 10% 20px 10%;
+  }
+  .about-us-row .about-u-col p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .skills .desc-skills {
+    margin: 0;
+  }
+  .skills .desc-skills .about-skills p {
+    font-size: 12px;
+  }
+  .skills .desc-skills .persents .per-lines span {
+    height: 6px;
+  }
+  .skills .desc-skills .persents .per-num p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .serv-row .serv_desript h2 {
+    padding: 50px 0;
+  }
+  .serv-row .serv_desript h3 {
+    padding: 0 20px;
+  }
+  .row .porfolio_img > img {
+    height: 25vh;
+  }
+  .r-tabs-panel .r-tabs-state-active .triangle {
+    top: 213px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bcg_head {
+    height: 80vh;
+    overflow: hidden;
+  }
+  .bcg_head img {
+    width: 200vw;
+  }
+  .serv-row .serv_desript h2 {
+    padding: 20px 0;
+  }
+  .serv-row .serv_desript h3 {
+    padding: 0;
+  }
+  .row .porfolio_img > img {
+    height: 30vh;
+  }
+  .triangle {
+    display: none;
+  }
+  .about-us-row .about-u-col p {
+    font-size: 16px;
+  }
+  .skills h3 {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bcg_head .in-head > a {
+    margin-top: 20%;
+  }
+  .bcg_head .in-head > h1 {
+    font-size: 9vw;
+  }
+  .row .porfolio_img > img {
+    height: 47vh;
+  }
+  .about-us-row .about-u-col p {
+    font-size: 14px;
+  }
+  .about-u-col {
+    height: 55vh;
+  }
+}
