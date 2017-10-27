@@ -1,0 +1,49 @@
+.late-columns {
+  margin: 40px 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.late-columns img {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.late-chap {
+  margin-bottom: 60px;
+}
+
+.latest-posts {
+  margin: 0 10%;
+}
+
+.late-descr {
+  margin-left: 30px;
+}
+
+.late-descr h3 {
+  font-size: 25px;
+  font-family: Oswald-Bold;
+}
+
+.late-descr h4 {
+  font-size: 15px;
+  font-family: Oswald-Bold;
+}
+
+.late-descr .spanner {
+  height: 3px;
+  width: 80px;
+  background-color: #fd5433;
+}
+
+.late-descr p {
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 20px;
+  font-family: Arial, serif;
+}

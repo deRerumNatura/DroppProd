@@ -1,3 +1,108 @@
+.contact {
+  border-bottom: none;
+  border-top: solid #565656 1px;
+  margin-top: 60px;
+}
+
+.feedback {
+  padding: 2% 10% 0 10%;
+}
+
+.feedback-form {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feedback-form .upper-input {
+  height: 55px;
+  width: 49%;
+}
+
+.feedback-form .upper-input:nth-child(1) {
+  align-self: flex-start;
+  margin-right: 1%;
+}
+
+.feedback-form .upper-input:nth-child(2) {
+  align-self: flex-end;
+  margin-left: 1%;
+}
+
+.feedback-form .foot-input {
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.feedback-form .button {
+  width: 100%;
+  margin-top: 20px;
+  height: 55px;
+  background-color: #fd5433;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Oswald-Bold;
+  font-size: 22px;
+}
+
+.feedback-form .button:active {
+  background-color: #fff;
+}
+
+.feedback-form > input {
+  padding-left: 20px;
+  border: none;
+}
+
+.feedback-form > input::-webkit-input-placeholder {
+  color: #fd5433;
+  font-family: Arial, serif;
+  margin-left: 20px;
+}
+
+.feedback-form > input::-moz-placeholder {
+  color: #fd5433;
+  font-family: Arial, serif;
+  margin-left: 20px;
+}
+
+.feedback-form > input:-ms-input-placeholder {
+  color: #fd5433;
+  font-family: Arial, serif;
+  margin-left: 20px;
+}
+
+.feedback-form > input:-moz-placeholder {
+  color: #fd5433;
+  font-family: Arial, serif;
+  margin-left: 20px;
+}
+
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 55px;
+  margin-top: 80px;
+  border-top: 1px #fff solid;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0;
+  align-self: center;
+}
+
 @media screen and (min-width: 1200px) {
   .switch {
     opacity: 0;

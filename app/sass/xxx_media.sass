@@ -33,6 +33,13 @@ $dark_head_grey: #565656
 		height: 20vh
 	.about-us-row .about-u-col p
 		font-size: 14px
+
+	.late-columns
+		flex-direction: column
+		img
+			height: 35vh
+	.late-descr
+		margin-top: 40px
 @media screen and (max-width: 1024px)
 	.about-us-row .about-u-col p
 		font-size: 14px
@@ -56,16 +63,33 @@ $dark_head_grey: #565656
 		p
 			font-size: 12px
 
+	.late-descr
+		margin-top: 0
+
+	.serv_desript
+		img
+			height: 15vh
+		h3
+			font-size: 12px
+	.serv-row .serv_desript h2
+		padding: 20px 0
+
 
 @media screen and (max-width: 992px)
 	.serv-row	.serv_desript h2
-		padding: 50px 0
+		font-size: 22px
 	.serv-row .serv_desript h3
-		padding: 0 20px
-	.row .porfolio_img > img
-		height: 25vh
+		margin: 0
+		padding: 0
 	.r-tabs-panel .r-tabs-state-active .triangle
 		top: 213px
+	.serv-row
+		margin: 0
+
+	.late-columns
+		flex-direction: row
+		img
+			height: 200px
 @media screen and (max-width: 768px)
 	.bcg_head
 		height: 80vh
@@ -85,6 +109,33 @@ $dark_head_grey: #565656
 	.skills 
 		h3
 			padding: 10px 0 	
+	.late-columns
+		flex-direction: column 
+		align-items: center
+		img
+			height: 300px
+			width: 100%	
+	.late-descr
+		margin-top: 30px
+		margin-left: 0
+
+	.feedback-form
+		flex-direction: column
+		.upper-input
+			width: 100%
+			&:nth-child(2)
+				margin-top: 20px
+	.feedback
+		padding-top: 20px
+
+	.serv_desript
+		img
+			height: 30vh
+		h3
+			font-size: 30px
+	.serv-row .serv_desript h2
+		font-size: 55px
+
 @media screen and (max-width: 576px)
 	.bcg_head .in-head 
 		& > a
@@ -92,9 +143,16 @@ $dark_head_grey: #565656
 		& > h1
 			font-size: 9vw
 	.row .porfolio_img > img
-		height: 47vh
+		height: 28vh
+		width: 50vw
 	.about-us-row .about-u-col p
 		font-size: 14px
 	.about-u-col
 		height: 55vh
+	.late-columns
+		align-items: start
+		margin-top: 0
+		img
+			height: 45vw
+		
 
